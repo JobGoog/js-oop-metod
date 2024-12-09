@@ -1,5 +1,5 @@
 import Bowman from '../class/Bowman';
-import Character from '../Class/Character';
+import Character from '../class/Character';
 
 test('Создание Bowman персонажа', () => {
   const bowman = new Bowman('Robin');
@@ -32,7 +32,7 @@ test('Создание персонажа с корректным именем �
     type: 'Zombie',
     health: 100,
     level: 1,
-    attack: 0,
-    defence: 0,
+    attack: undefined,
+    defence: undefined,
   });
 });
